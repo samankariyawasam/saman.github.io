@@ -1,0 +1,146 @@
+/* Reset default margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body background color */
+body {
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh; /* Ensure the page takes up the full height of the viewport */
+}
+
+/* Header Styles */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+    font-size: 140%;
+    font-family: 'Oswald', serif;
+}
+
+/* Title styling for main text */
+#text {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 40px;
+    display: inline-block;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+/* Video container styling */
+.video-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 80px;
+}
+
+/* Styling for the image container */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Alternating left-right layout for images */
+.image-left {
+    flex-basis: 45%;
+    order: 1; /* Left-aligns first image */
+}
+
+.image-right {
+    flex-basis: 45%;
+    order: 2; /* Right-aligns second image */
+}
+
+/* Individual image boxes */
+.image {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Image opacity change on hover */
+.image:hover {
+    opacity: 0.8;
+    transform: translateY(-10px);
+}
+
+/* Text inside the image box */
+.text {
+    position: absolute;
+    bottom: 140px;
+    left: 1600px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.ava {
+    height: 300px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.video-container1 {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 80px;
+}
+.sampath {
+    justify-content: left;
+    margin-right: 25%;
+}
+.lesgo {
+    margin-top: 20px;
+    padding: 20px;
+}
